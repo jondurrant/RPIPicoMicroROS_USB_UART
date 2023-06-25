@@ -79,7 +79,7 @@ size_t pico_usb_transport_write(struct uxrCustomTransport * transport, const uin
  * @param transport
  * @param buf - Data buffer to write to
  * @param len - Max length of buffer
- * @param timeout - timeout in NS
+ * @param timeout - timeout in micro Seconds
  * @param err
  * @return returns number of bytes read. < 0 if error occurs
  */
